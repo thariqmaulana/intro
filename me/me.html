@@ -7,7 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://kit.fontawesome.com/89d8def7c5.js" crossorigin="anonymous"></script>
   <style>
-  
+    * {}
   </style>
 </head>
 <body class="scroll-smooth" id="home">
@@ -15,19 +15,25 @@
       <div class="fixed w-full">
         <div  class="bg-gradient-to-r from-blue-800 to-yellow-300 flex justify-between">
           <div class="hover:text-white cursor-pointer p-4">
-            <p>Thariq Maulana</p>
+            <p class="sm:block">Thariq Maulana</p>
           </div>
+        
+          
           <div>
-        <a href="#contact" class="float-right p-4 mr-0 hover:text-white">Contact</a>
-        <a href="#projects" class="float-right p-4 hover:text-white">Projects</a>
-        <a href="#about" class="float-right p-4 hover:text-white">About</a>
-        <a href="#home" class="float-right p-4 hover:text-white">Home</a>
+          <!-- <button id="btn" class="float-right p-4 mr-0"><i class="fa-solid fa-star fa-xl"></i></button> -->
+          <div class="" id="nav">
+        <a href="#contact" class="md:block  float-right p-4  hover:text-white">Contact</a>
+        <a href="#projects" class="md:block  float-right p-4 hover:text-white">Projects</a>
+        <a href="#about" class="md:block  float-right p-4 hover:text-white">About</a>
+        <a href="#home" class="md:block  float-right p-4 hover:text-white">Home</a>
       </div>
+    </div>
+      
       </div>
    </div>
 
-   <div class="flex justify-center items-center ">
-     <div class="w-full bg-gradient-to-bl from-yellow-300 to-blue-800 ">
+   <div class="flex justify-center items-center">
+     <div class="pt-14 sm:pt-0 w-full bg-gradient-to-bl from-yellow-300 to-blue-800 ">
       <img src="me.jpg" alt="mypic" class="mt-24 w-52 rounded-full mx-auto">
       <p class="text-center text-4xl">Thariq Maulana</p>
       <p class="text-center font-thin text-2xl mt-2">&lt;Web Developer&gt;</p>
@@ -81,5 +87,6 @@
    </div>
 
  </div>
+
 </body>
 </html>
